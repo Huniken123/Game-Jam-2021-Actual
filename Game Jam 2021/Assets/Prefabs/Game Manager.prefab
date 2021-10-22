@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &433395830661158212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 433395830661158213}
+  - component: {fileID: 433395830661158211}
+  - component: {fileID: 433395830661158210}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &433395830661158213
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433395830661158212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 537.5748, y: 590.2513, z: 10.010559}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &433395830661158211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433395830661158212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0332a3fb5bf68da4584c55e5e7d2474d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Group2Spawn1: {fileID: 0}
+  Group2Spawn2: {fileID: 0}
+  Group3Spawn1: {fileID: 0}
+  Group3Spawn2: {fileID: 0}
+  Group3Spawn3: {fileID: 0}
+  mutationCards:
+  - {fileID: 6752872949665939408, guid: 2ce70672e2b4ba24cb637747fab757f1, type: 3}
+  - {fileID: 5687200561749429107, guid: 5eff91a3bf9d892499fe3003c3178c71, type: 3}
+  - {fileID: 8983619121693609654, guid: d09d339bb7503bf44a09cb38df3a6af5, type: 3}
+  - {fileID: 943873275237940740, guid: 2bcb56d8ea7bfe04581e8d9738d94fa4, type: 3}
+  - {fileID: 7891136092622080040, guid: dbe332783b90ccb41bb0d437046263c4, type: 3}
+  - {fileID: 4287263181482601367, guid: 5f9a07df206735a4387cf33a06b37536, type: 3}
+  - {fileID: 3932888396916759241, guid: 4bda54e8e8b96da48b0ec760bbf7a094, type: 3}
+  - {fileID: 2189891420810267011, guid: 405a28bab42a4e640aabbe7f8e5e80e2, type: 3}
+  - {fileID: 354159132977046928, guid: c8ddf4b318e9374429fc1aa241ab5ce9, type: 3}
+  - {fileID: 6564742681911365592, guid: 8a3b07b27761a5f47841257294dc180a, type: 3}
+  - {fileID: 3521286647452368453, guid: 7d13c6e5a58996a4cbf1b65688ec8fde, type: 3}
+  rareMutationCards:
+  - {fileID: 2250072167545124003, guid: c546bb4dbaec39548ab43973348fd4f1, type: 3}
+  - {fileID: 2809156622994472677, guid: 30fb6791d7de79b41b064acf59d06124, type: 3}
+  - {fileID: 9209066270640817558, guid: 9f9300d9d9371b04c830b38fac26e37f, type: 3}
+  - {fileID: 7653046249555553606, guid: 0509b80852f3e6749b0ddd2054c86653, type: 3}
+  rareSpawnThreshold: 80
+--- !u!114 &433395830661158210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433395830661158212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad8090122c98ca4abdc1da93ec4815b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStarted: 0
+  hasStarted: 0
+  mutationPicked: 0
+  discard: 0
+  mainMenu: {fileID: 0}
+  animalNames:
+  - Baby
+  - Cat
+  - Dog
+  - Emu
+  - Pig
+  - Spider
+  - Squirrel
+  animalImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  funnyQuips:
+  - Hits The Big Time!
+  - Lashes Out!
+  - Crosses Over!
+  - Comes Aboard!
+  - Turns Over A New Leaf!
+  - Turns Up The Heat!
+  - Enters The Ring!
+  - Pipes Up!
+  - Steals The Show!
+  - Draws Near!
+  - Are Raring To Go!
+  - Faces The Fury!
+  - Joins Smash House!
+  - Recruits ...Byleth!
+  - Arms Herself!
+  - Rocks The Block!
+  - Swaps In!
+  - Spawn In!
+  - Steps From The Shadows!
+  - Descends To Battle!
+  - Blazes Into Battle!
+  - Awakens!
+  - Gets Ready For The Next Battle!
+  - Is Finally Here!
+  cards:
+  - {fileID: 6752872949665939408, guid: 2ce70672e2b4ba24cb637747fab757f1, type: 3}
+  - {fileID: 5687200561749429107, guid: 5eff91a3bf9d892499fe3003c3178c71, type: 3}
+  - {fileID: 8983619121693609654, guid: d09d339bb7503bf44a09cb38df3a6af5, type: 3}
+  - {fileID: 943873275237940740, guid: 2bcb56d8ea7bfe04581e8d9738d94fa4, type: 3}
+  - {fileID: 7891136092622080040, guid: dbe332783b90ccb41bb0d437046263c4, type: 3}
+  - {fileID: 4287263181482601367, guid: 5f9a07df206735a4387cf33a06b37536, type: 3}
+  - {fileID: 3932888396916759241, guid: 4bda54e8e8b96da48b0ec760bbf7a094, type: 3}
+  - {fileID: 8519469721260664043, guid: ad1b45ce230f9b34bb22b724b6f7a675, type: 3}
+  - {fileID: 2189891420810267011, guid: 405a28bab42a4e640aabbe7f8e5e80e2, type: 3}
+  - {fileID: 354159132977046928, guid: c8ddf4b318e9374429fc1aa241ab5ce9, type: 3}
+  - {fileID: 6564742681911365592, guid: 8a3b07b27761a5f47841257294dc180a, type: 3}
+  - {fileID: 3521286647452368453, guid: 7d13c6e5a58996a4cbf1b65688ec8fde, type: 3}
+  - {fileID: 2250072167545124003, guid: c546bb4dbaec39548ab43973348fd4f1, type: 3}
+  - {fileID: 2809156622994472677, guid: 30fb6791d7de79b41b064acf59d06124, type: 3}
+  - {fileID: 9209066270640817558, guid: 9f9300d9d9371b04c830b38fac26e37f, type: 3}
+  - {fileID: 7653046249555553606, guid: 0509b80852f3e6749b0ddd2054c86653, type: 3}
+  cardIndex: 0
+  funnyJoinQuip: {fileID: 0}
+  mutationPoints: 0
+  pointText: {fileID: 0}
+  minimumPoints: -5
+  maximumPoints: 5

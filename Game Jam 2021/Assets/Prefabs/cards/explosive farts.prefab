@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: 455601414815278270}
   - component: {fileID: 5041325702888979128}
   - component: {fileID: 5041325702888979129}
+  - component: {fileID: -5721015109951210313}
+  - component: {fileID: -5101572100317369864}
   m_Layer: 0
   m_Name: explosive farts
   m_TagString: Untagged
@@ -96,6 +98,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startRotate: 0
   rotationSpeed: 500
+--- !u!54 &-5721015109951210313
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943873275237940740}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-5101572100317369864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943873275237940740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a89d0fb5ec4ef049a822af842105895, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 433395830661158212, guid: e78196ba30b50b64384e112ff321afcf, type: 3}
+  cardID: 4
+  mutationValue: 2
+  waitForDespawn: 3
 --- !u!1 &1355077016226627581
 GameObject:
   m_ObjectHideFlags: 0
