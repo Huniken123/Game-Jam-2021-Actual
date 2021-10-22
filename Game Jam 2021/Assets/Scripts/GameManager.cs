@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     {
         gameStarted = main.gameStart;
 
-        while (gameStarted)
+        if (gameStarted)
         {
             Debug.Log("GO!");
         }
