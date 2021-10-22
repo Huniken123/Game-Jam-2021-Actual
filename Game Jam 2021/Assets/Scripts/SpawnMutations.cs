@@ -24,12 +24,6 @@ public class SpawnMutations : MonoBehaviour
 
     private float randomNumber;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     public void SpawnMutationCards()
     {
         Debug.Log("Made it to Method");

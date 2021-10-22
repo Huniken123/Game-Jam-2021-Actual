@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &11297256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,6 +329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 185526603}
   - component: {fileID: 185526605}
+  - component: {fileID: 185526604}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -350,6 +351,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &185526604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185526602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad8090122c98ca4abdc1da93ec4815b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStarted: 0
+  hasStarted: 0
+  mainMenu: {fileID: 0}
+  animalNames: []
+  animalImages: []
+  funnyQuips: []
+  shownImage: {fileID: 0}
+  funnyJoinQuip: {fileID: 0}
 --- !u!114 &185526605
 MonoBehaviour:
   m_ObjectHideFlags: 0
